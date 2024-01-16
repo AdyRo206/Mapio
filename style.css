@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_nav li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+
+}
+
+.main_nav ul{
+    display: inline;
+}
+
+.main_nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.order{
+    background-color: #FF7800;
+    padding: 10px;
+}
