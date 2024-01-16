@@ -35,9 +35,60 @@ nav{
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .order{
     background-color: #FF7800;
     padding: 10px;
+    transition: 1s;
+}
+
+.order:hover{
+    color: rgb(223, 223, 223) !important;
+    border-radius: 12px;
+}
+
+.main_nav a:hover{
+    color: #FF7800;
+}
+
+.content{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    align-items: center;
+}
+
+.des_part h1{
+    font-size: 60px;
+}
+
+.des_part{
+   margin-right: 20%;
+}
+
+.od_main{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+}
+
+footer p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
