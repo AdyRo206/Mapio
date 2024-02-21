@@ -7,6 +7,7 @@ body{
     background-image: url("assets/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.911);
 }
 
 .main_nav li{
@@ -53,14 +54,19 @@ nav{
     color: #FF7800;
 }
 
-.content{
-    display: flex;
+main{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: white;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
 }
 
 .des_part h1{
@@ -93,3 +99,26 @@ footer p{
     margin-right: 20px;
 }
 
+@media only screen and (max-width: 1800px){
+    main{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .des_part{
+        margin-right: 0;
+     }
+}
+
+@media only screen and (max-width: 1360px){
+    .des_part h1{
+        font-size: 30px;
+    }
+    .des_part p{
+        font-size: 12px;
+    }
+    .img_part img{
+        width: 300px;
+    }
+}
