@@ -159,4 +159,9 @@ footer p{
     .des_part{
         padding-top: 15%;
     }
+    footer{
+        font-size: 11px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
