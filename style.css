@@ -152,4 +152,11 @@ footer p{
     .order{
         display: none;
     }
+    .img_part img{
+        padding-top: 10px;
+        width: 250px;
+    }
+    .des_part{
+        padding-top: 15%;
+    }
 }
