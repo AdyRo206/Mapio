@@ -85,6 +85,17 @@ main{
     border-radius: 15px;
 }
 
+.od_main{
+    background-color: #FF7800;
+    padding: 10px;
+    transition: 1s;
+}
+
+.od_main:hover{
+    color: rgb(223, 223, 223) !important;
+    border-radius: 12px;
+}
+
 footer{
     display: flex;
     position: absolute;
