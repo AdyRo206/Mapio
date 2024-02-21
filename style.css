@@ -153,8 +153,8 @@ footer p{
         display: none;
     }
     .img_part img{
-        padding-top: 10px;
-        width: 250px;
+        padding-top: 15px;
+        width: 200px;
     }
     .des_part{
         padding-top: 15%;
@@ -163,5 +163,10 @@ footer p{
         font-size: 11px;
         margin-left: 0px;
         margin-right: 0px;
+        margin-top: 10px;
+    }
+    .od_main{
+        padding: 10px;
+        font-size: 15px;
     }
 }
